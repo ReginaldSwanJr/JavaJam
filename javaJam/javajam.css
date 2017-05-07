@@ -1,0 +1,366 @@
+/*  Reginald Swan, Jr.
+     10/3/2016 
+ */
+header, nav, main, footer { display: block;}
+    
+body {
+	background-color: #FCEBB6;
+	background-image: url("imgs/background.gif");
+	color:#221811;
+	font-family: Verdana, Arial, Helevetica, sns-serif;
+	}
+		
+	
+nav {
+	text-align:center;
+	font-size: 1.53em;
+	padding-top: 10px;
+	float: left;
+	width: 200px;
+   
+   }
+nav a{
+	text-decoration: none;
+}
+   
+nav a:link {
+    color: #FEF6C2;
+}
+
+/* visited link */
+nav a:visited {
+    color: #D2B48C;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: #CC9933;
+}
+   
+nav ul{
+	padding-left: 0em;
+	list-style-type: none;
+}
+ul{
+	padding-left: 3em;
+    padding-right: 2em;
+}
+dl{
+	padding-left: 3em;
+    padding-right: 2em;
+}
+header{
+background-color : #D2B48C;
+color : #221811;
+height : 150px;
+width : auto;
+background-image: url("imgs/javajamlogo.jpg");
+background-repeat: no-repeat;
+
+}
+
+
+main{
+	padding-left: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	display: block;
+	background-color: #FEF6C2;
+	margin-left: 200px;
+}
+main h2, main h3, main h4, main p, main p, main div, main ul, main dl{
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-right: 2em;
+	
+}
+p{
+	padding-left: 3em;
+    padding-right: 2em;
+}
+h1 {
+font-size: 3em;
+padding-top: 45px;
+padding-left: 220px;
+}
+dt{
+	font-weight: bold;
+}
+h2 {
+color : #221811;
+padding-left: 3em;
+padding-right: 2em;
+}
+h3{
+padding-left: 3em;
+padding-right: 2em;
+}
+
+
+footer {
+background-color : #D2B48C;
+color:#000000; font-size : .60em ; 
+font-style:italic ; 
+text-align:center;
+padding-bottom: 10px;
+border-top: 2px;
+border-top-color: #221811;
+}
+
+h4{
+	background-color: #D2B48C;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+	padding-left: 3em;
+    padding-right: 2em;
+	clear: left;
+	text-transform: uppercase;
+	border-bottom: 2px;
+	padding-bottom: 0em;
+	
+}
+img{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+table{
+	
+	width: 90%;
+	border-spacing: 0;
+	background-color: #ffffcc;
+	margin: auto;
+	
+}
+
+table td{
+	padding: 10px;
+}
+
+table th{
+	padding: 10px;
+}
+
+table tr:nth-of-type(odd){
+	background-color: #d2b48c;
+}
+
+
+form {
+	padding: 2em;
+}
+
+audio{
+	display: block;
+	margin-top: 1em;
+}
+
+
+
+
+.details{
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+}
+
+.floatleft{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#myLabel {
+	display: block;
+	float: left;
+	width: 8em;
+	text-align: right;
+	padding-right: 1em;
+}
+
+#myInput {
+	display: block;
+	margin-bottom: 1em;
+}
+#mySubmit {
+	margin-left: 9.5em;
+}
+
+#wrapper { 
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#231814;
+	min-width:900px;
+	max-width:1280px;
+	box-shadow: 5px 5px 5px #333333;
+
+}
+
+#heroroad{
+	background-image: url("imgs/heroroad.jpg");
+	background-size: 100%;
+	height: 250px;
+	background-size: auto;
+}
+
+#heromugs{
+	background-image: url("imgs/heromugs.jpg");
+	background-size: 100%;
+	height: 250px;
+}
+
+#heroguitar{
+	background-image: url("imgs/heroguitar.jpg");
+	background-size: 100%;
+	height: 250px;
+}
+
+
+
+#panel{
+	display: none;
+}
+
+#container {
+margin-left : auto;
+margin-right : auto;
+width : 80%;
+min-width : 700px;
+}
+
+#mobile { display: none; }
+#desktop { display: inline; }
+
+*{box-sizing: border-box;}
+
+
+
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+	body{
+		background-image: none;
+		margin: 0em;
+	}
+	#wrapper{
+		width: auto;
+		min-width: 0em;
+		padding: 0em;
+		box-shadow: none;
+		margin: 0;
+	}
+	header{
+		border-bottom: #FEF6C2;
+		border-bottom-width: 5px;
+		border-bottom-style: solid;
+	}
+	
+	h1{
+		margin-top: 0em;
+		margin-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 2.5em;
+	}
+	
+	nav{
+		float: none;
+		width: auto;
+		padding-top: 0em;
+		margin: 10px;
+		font-size: 1.3em;
+	}
+	
+	nav li{
+		display: inline-block;
+	}
+	nav a{
+		padding: 1em;
+		width: 8em;
+		font-weight: bold;
+		border-style: none;
+	}
+	
+	nav ul{
+		padding: 0em;
+		margin: 0em;
+	}
+	
+	#heroroad, #heroguitar, #heromugs{
+		margin: 0em;
+		padding: 0em;
+		background-size: auto;
+		
+	}
+	
+	main{
+		padding: 0em;
+		margin: 0em;
+		font-size: 90%;
+	}
+}
+
+
+/* Smart Phones */
+@media only screen and (max-width: 768px) {
+	header{
+		background-image: url("imgs/javajammini.jpg");
+		height: 128px;
+		padding: 0;
+	}
+	
+	h1{
+		font-size: 2em;
+		text-align: center;
+		padding-left: 0em;
+	}
+	
+	nav{
+		margin: 0em;
+	}
+	
+	nav a{
+		display: block;
+		padding: 0.2em;
+		width: auto;
+		border: solid;
+		border-bottom: 1px;
+		border-bottom-color: #FEF6C2;
+	}
+	
+	nav li{
+		display: block;
+	}
+	
+	main{
+		padding-top: 1px;
+	}
+	
+	h2{
+		padding-top: 0.5em;
+		padding-right: 0em;
+		padding-bottom: 0em;
+		padding-left: 0.5em;
+		margin-right: 0.5em;
+	}
+	
+	.details{
+		padding-left: 0em;
+		padding-right: 0em;
+	}
+	
+	.floatleft{
+		padding-right: 0.5em;
+	}
+
+	#heroroad, #heromugs, #heroguitar{
+		background-image: none;
+		height: auto;
+		background-size: auto;
+	}
+	
+	
+	#mobile {display: inline; }
+	#desktop{display: none;}
+}

@@ -1,0 +1,2 @@
+Jobs.html: missed id attributes for the first three form controls (-12pts),
+ all three form controls have to have the same value of the id attribute as the for attribute value of the corresponding label elements; incorrect text area (8pts), you have to use <textarea> element not <input> element; incorrect link with <a> element in the <footer> (-4pts).

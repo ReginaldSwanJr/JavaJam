@@ -1,0 +1,101 @@
+<!-- Reginald Swan, Jr.
+     10/3/2016 -->
+	 
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="javajam.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			$("#wrapper").click(function(){
+				$("#panel").slideToggle();
+			});
+
+		});
+	</script>
+</head>
+
+
+<body>
+<div id="wrapper">
+<header>
+	<h1>JavaJam Coffee House</h1>
+</header>
+
+<nav>
+	<ul>
+		<li>
+		  <a href="index.html"> Home</a>
+		</li>
+		<li>
+		<a href="Menu.html"> Menu</a>
+		</li>	
+		<li>
+		<a href="Music.html"> Music</a>
+		</li>
+		<li>
+	    <a href="Jobs.html"> Jobs</a>
+		</li>		
+	</ul>
+	
+	
+</nav>
+
+<main>
+    <div id="heromugs"> </div>
+  
+	<h2>Coffee at JavaJam</h2>	
+	<p>Indulge in our locally roasted free-trade coffee and enjoy the aroma, the smooth taste,<br>
+	    the caffeine! Join our Mug Club and get a 10% discoutn on each cup of coffee your<br>
+		purchase &mdash; ask the barista for details.</p>
+		
+	<table align = "center">
+		<tr>
+			<th scope="row">Just Java</th>
+			<td>Regular house blend, decaffeinated coffee, or flavor of the day.<br> Endless Cup $2.00</td>
+		</tr>
+		<tr>
+			<th scope="row">Cafe au Lait</th>
+			<td>House blended coffee infused into a smooth, streamed milk.<br> Single $2.00 Double $3.00</td>
+		</tr>
+		<tr>
+			<th scope="row">Iced Cappuccino</th>
+			<td>Sweetened espresso blended with icy-cold milk and served in a chilled glass.<br> Single $4.75 Double $5.75</td>
+		</tr>
+	</table>
+	
+	<br>
+</main>
+
+<footer>
+	<br>Copyright &copy; 2016 JavaJam Coffee House <br> 
+	<a href="mailto:SirReginald@JavaJam.com?Subject=Hello%20again">
+	SirReginald@JavaJam.com 
+</footer>
+<br>
+<div id="panel">
+	<table align = "center">
+		<tr>
+			<td> <img src="imgs/americano.jpg" alt="americano" style="width:209px; height:138px;"><br/> $2.75 </td> 
+			<td><img src="imgs/cappuchino.jpg" alt="cappuchino" style="width:209px;height:138px;"><br/> $3.75 </td>
+			<td><img src="imgs/latte.jpg" alt="latte" style="width:209px;height:138px;"><br/> $3.75 </td>
+		</tr>
+		<tr>
+			<td><img src="imgs/dirtychai.jpg" alt="dirtychai" style="width:209px;height:138px;"><br/> $4.00 </td>
+			<td><img src="imgs/mocha.jpg" alt="mocha" style="width:209px;height:138px;"><br/> $3.75 </td>
+			<td><img src="imgs/cafeaulait.jpg" alt="cafeaulait" style="width:209px;height:138px;"><br/> $3.75 </td>
+		</tr>
+	</table>
+</div>
+</div>
+</body>
+
+</html>
